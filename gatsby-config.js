@@ -51,5 +51,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `vj4mykfv7922`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: "UAAhbXmiXp9urCaOHoki9mSjaR2TF5LezLLKqwlNJHc",
+      },
+    },
   ],
 }
